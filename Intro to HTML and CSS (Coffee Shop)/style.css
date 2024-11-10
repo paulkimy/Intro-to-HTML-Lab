@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 125px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: maroon;
+}
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    cursor: pointer;
+}
+span{
+    color: rgb(186, 100, 13);
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+.menu li a:hover{
+    color: rgb(186, 100, 13);
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 600;
+}
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    color: white;
+    background-color: rgb(186, 100, 13);
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+   background: none;
+   border: 2px solid rgb(186, 100, 13);
+}
+.table-dim img{
+    height: 300px;
+}
+.table-dim table{
+    padding-right: 10px;
+    color: #fff;
+}
+
+.aboutpage{
+    color: white;
+}
+.aboutpage img{
+    height:400px;
+    margin-top: 220px;
+    padding-left: 100px;
+}
+.branches{
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+.branches img{
+    height: 250px;
+}
+.americano{
+    color: white;
+    padding-left: 50px;
+}
+.americano img{
+    height: 350px;
+}
+.vanilla{
+    color: white;
+    padding-left: 50px;
+}
+.vanilla img{
+    height: 350px;
+}
+.matcha{
+    color: white;
+    padding-left: 50px;
+}
+.matcha img{
+    height: 350px;
+}
+.white{
+    color: white;
+    padding-left: 50px;
+}
+.white img{
+    height: 350px;
+}
